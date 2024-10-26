@@ -1,6 +1,6 @@
 # Python-Projects (Total-01)
 
-## **Project-01: Rock Paper Scissors Game **
+## Project-01: Rock Paper Scissors Game 
 
 **Description:**
 This project allows users to play Rock Paper Scissors against the computer. The user can select their choice (rock, paper, or scissors), and the computer makes a random choice. The program then determines the winner based on the standard rules of the game.
