@@ -1,4 +1,4 @@
-# Python-Projects (Total-03)
+# Python-Projects (Total-04)
 
 ## Project-01: Rock Paper Scissors Game 
 
@@ -102,6 +102,38 @@ If both the player and the dealer have the same score, the game ends in a draw.
 **Output: **
 
 ![Screenshot 2024-11-02 204101](https://github.com/user-attachments/assets/0e373fe3-e419-4792-b049-e413fd95dbd2)
+
+
+
+## Project-04: Quiz Game!
+
+**Description:**
+
+The Quiz Game is a simple interactive application built using Python that tests users' knowledge with True/False questions. This project demonstrates the principles of Object-Oriented Programming (OOP) by utilizing classes and constructors to create a modular and organized code structure.
+
+**Approach**
+
+The application is structured around two main classes: `Question` and `QuizBrain`. The `Question` class represents individual quiz questions, while the `QuizBrain` class manages the quiz flow, tracks the score, and provides feedback to the user.
+
+**Key Components:**
+
+**Question Class:** Holds the question text and the correct answer.
+**QuizBrain Class:** Manages the quiz logic, including asking questions, checking answers, and tracking the score.
+
+**Features**
+
+**Question Prompt**: Users are presented with questions and can answer with True or False.
+
+**Score Tracking**: The application keeps track of the number of correct answers and displays the final score at the end of the quiz.
+
+**Instant Feedback**: After each question, users receive immediate feedback on whether their answer was correct or not
+
+**Output:**
+
+![Screenshot 2024-11-10 222759](https://github.com/user-attachments/assets/5c633a5d-81e6-48a1-a995-854c0e19282c)
+###
+![Screenshot 2024-11-10 222809](https://github.com/user-attachments/assets/5baddfde-296d-47f2-8611-81c755689d68)
+
 
 
 
