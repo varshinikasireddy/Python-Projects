@@ -1,4 +1,4 @@
-# Python-Projects (Total-04)
+# Python-Projects (Total-05)
 
 ## Project-01: Rock Paper Scissors Game 
 
@@ -135,8 +135,32 @@ The application is structured around two main classes: `Question` and `QuizBrain
 ![Screenshot 2024-11-10 222809](https://github.com/user-attachments/assets/5baddfde-296d-47f2-8611-81c755689d68)
 
 
+# Project-05: Snake Game
 
+## Description:
+The Snake Game is a classic arcade game where the player controls a snake that grows in length as it eats food while avoiding collisions with itself and the walls. This project demonstrates fundamental game development concepts, including screen setup, object-oriented programming, and user input handling.
 
+## Game Rules:
+- The player controls the snake using the arrow keys.
+- The objective is to eat the food that appears on the screen, which causes the snake to grow longer.
+- The game ends if the snake collides with itself or the walls.
+- The score increases with each piece of food consumed.
+
+## Approach:
+1. **Screen Setup**: Created a game window with a defined width and height for an interactive experience.
+2. **Snake Class**: Implemented a Snake class using Object-Oriented Programming principles to manage the snake's properties and behaviors.
+3. **Movement Control**: Enabled smooth movement of the snake, allowing it to change direction based on keypress events.
+4. **Food Generation**: Randomly generated food items on the screen for the snake to consume.
+5. **Collision Detection**: Implemented logic to detect collisions with the walls and the snake's own body.
+
+## Features:
+- **Interactive Gameplay**: Control the snake with keyboard inputs.
+- **Dynamic Scoring**: Track and display the player's score based on the number of food items consumed.
+- **Game Over Conditions**: End the game when the snake collides with itself or the walls, with an option to restart.
+
+## Output:
+
+https://github.com/user-attachments/assets/fe6f25c4-0b61-46b3-b2ac-3e0da0466276
 
 
 
