@@ -164,4 +164,55 @@ https://github.com/user-attachments/assets/fe6f25c4-0b61-46b3-b2ac-3e0da0466276
 
 
 
+## Project-06: Pongman Game 🎾  
+
+**Description**:  
+The Pongman Game is a recreation of the classic arcade game Pong. This two-player game allows players to control paddles to prevent the ball from crossing their side of the screen. The game demonstrates essential programming concepts like object-oriented programming, event handling, and collision detection.  
+
+
+
+### Game Rules:  
+- **Control the paddles** to prevent the ball from crossing your side of the screen.  
+- The ball bounces off the walls and paddles, increasing speed over time.  
+- A player scores a point if their opponent misses the ball.  
+- The first player to reach the winning score wins the game.  
+
+
+
+### Approach:  
+
+#### **Step 1: Create the Game Screen**  
+- Used the `turtle` library to set up a game window.  
+- Added a background color, screen title, and a central dividing line.  
+
+#### **Step 2: Create the Paddles**  
+- Created two paddles using a `Paddle` class with methods for movement.  
+- Assigned keyboard controls for both players.  
+
+#### **Step 3: Create the Ball**  
+- Designed a ball using the `Ball` class to move across the screen.  
+- Implemented logic for bouncing off walls and paddles.  
+
+#### **Step 4: Detect Collisions**  
+- Added collision detection to bounce the ball off the paddles and walls.  
+- Detected when a paddle misses the ball and updated the score.  
+
+#### **Step 5: Keep Score**  
+- Introduced a scoreboard to track the score for both players.  
+
+### Features:  
+- Two-player control with `W/S` keys and `Up/Down` arrow keys.  
+- Dynamic ball movement with collision detection.  
+- Score tracking and display for competitive gameplay.  
+- Option to restart the game after it ends.
+
+### Output:
+
+https://github.com/user-attachments/assets/0a949058-c24e-4e15-983e-ea46f472c86b
+
+
+
+
+
+
 
