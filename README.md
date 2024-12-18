@@ -1,4 +1,4 @@
-# Python-Projects (Total-05)
+# Python-Projects (Total-06)
 
 ## Project-01: Rock Paper Scissors Game 
 
