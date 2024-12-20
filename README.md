@@ -1,4 +1,4 @@
-# Python-Projects (Total-06)
+# Python-Projects (Total-07)
 
 ## Project-01: Rock Paper Scissors Game 
 
@@ -210,6 +210,47 @@ The Pongman Game is a recreation of the classic arcade game Pong. This two-playe
 
 https://github.com/user-attachments/assets/0a949058-c24e-4e15-983e-ea46f472c86b
 
+# Project-07: Turtle Crossing Game 
+
+## Description:
+The Turtle Crossing Game is an engaging recreation of a classic arcade challenge. In this single-player game, the player controls a turtle navigating through lanes of traffic to reach the other side safely. The game showcases concepts like object-oriented programming, event handling, and collision detection in Python.
+
+## Approach:
+
+### Step 1: Create the Game Screen
+- Set up a game window using the `turtle` library.
+- Added a background color and a title for the game.
+
+### Step 2: Design the Player Turtle
+- Created a `Player` class to control the turtle.
+- Implemented movement functionality with the `Up` arrow key.
+
+### Step 3: Create Moving Cars
+- Designed a `CarManager` class to generate and move cars across the screen.
+- Randomized car colors and starting positions for diversity.
+
+### Step 4: Collision Detection
+- Implemented collision detection logic to determine when the turtle collides with a car.
+- Added a game-over mechanism upon collision.
+
+### Step 5: Level Up
+- Designed a `Level` class to track and display the player's current level.
+- Increased car speed and updated the level counter when the turtle successfully crossed.
+
+## Features:
+- **Interactive Gameplay**: Use the `Up` arrow key to move the turtle.
+- **Dynamic Difficulty**: Cars move faster as the player progresses to higher levels.
+- **Collision Detection**: Game ends upon collision with a car.
+- **Score Tracking**: Displays the player's current level during the game.
+- **Visual Appeal**: Randomly colored cars and a neat user interface.
+
+## Output:
+- A fun and challenging game with smooth transitions between levels.
+
+https://github.com/user-attachments/assets/ccd58826-b3d3-42dc-b156-e2d776d71161
+
+
+Enjoy playing the Turtle Crossing Game while practicing essential programming skills! 🚀
 
 
 
