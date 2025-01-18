@@ -1,4 +1,4 @@
-# Python-Projects (Total-07)
+# Python-Projects (Total-08)
 
 ## Project-01: Rock Paper Scissors Game 
 
@@ -252,7 +252,59 @@ https://github.com/user-attachments/assets/ccd58826-b3d3-42dc-b156-e2d776d71161
 
 Enjoy playing the Turtle Crossing Game while practicing essential programming skills! 🚀
 
+## Project-08: Password Manager
 
+## Description:
+This Password Manager allows users to securely store and retrieve passwords.This project is enhanced with features like error handling, JSON integration for storage, and a password search functionality for easier retrieval.
+
+## Modules/libraries used:
+
+**1. tkinter**
+Purpose: tkinter is the standard Python library for creating graphical user interfaces (GUIs). It allows you to create windows, buttons, labels, text fields, etc.
+
+**2. pyperclip**
+Purpose: pyperclip is a simple library for copying text to and pasting text from the system clipboard.
+
+**3. random**
+Purpose: The random module allows you to perform random operations like generating random numbers or selecting random items from a list.
+
+**4. json**
+Purpose: json is a module for working with JSON (JavaScript Object Notation), which is a lightweight data format often used for storing and exchanging data.
+
+## Approach:
+**Step1: User Interface with tkinter**
+The main window contains labels, text input fields, buttons, and a logo to make the app user-friendly.
+
+**Step2: Password Generation**
+ It randomly selects characters from different categories such as letters, numbers, and symbols to ensure the password is secure.
+The generated password is displayed in a text field and automatically copied to the clipboard using the pyperclip library.
+
+**Step3: Saving Data**
+The entered data is stored in a .json file using the json library. This allows users to store their credentials securely on their device and access them later.
+
+**Step4: Search and Retrieve Passwords**
+The app allows users to search for their saved passwords by entering the website name. The stored details (email and password) for that website are displayed in a pop-up message.
+
+**Step5: Error Handling**
+The application handles cases like missing data (e.g., empty fields), missing data files, and no saved credentials for the entered website. Appropriate messages are shown to guide the user.
+
+**Execution flow:**
+
+###
+
+![Screenshot 2025-01-18 205547](https://github.com/user-attachments/assets/565471fd-14a0-4501-a241-78cc0ae8ed05)
+
+###
+
+![Screenshot 2025-01-18 210212](https://github.com/user-attachments/assets/af79b140-a948-43f3-a68d-21a772debc7b)
+
+###
+
+![Screenshot 2025-01-18 205733](https://github.com/user-attachments/assets/398c1cfb-7252-4bf1-ae27-a11994e7a21c)
+
+###
+
+![Screenshot 2025-01-18 205747](https://github.com/user-attachments/assets/b13960c9-7993-426b-8685-bff80c21d55f)
 
 
 
